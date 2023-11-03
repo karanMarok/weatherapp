@@ -88,7 +88,8 @@ const WeatherApp = () => {
 
                 <div className="row d-flex justify-content-center">
                     <div className='col-6 d-flex justify-content-center'>
-                        <input ref={refInput} className="form-control" type="search" placeholder="Search City" aria-label="Search" />
+                        <input ref={refInput} className="form-control" type="search" placeholder="Search City" aria-label="Search" 
+                        onKeyDown={(e) => (!!(e.target.value) && (e.key === 'Enter'))? handleSearchWeather(e): null} />
                         <button className="btn btn-light" onClick={handleSearchWeather}>Search</button>
                     </div>
                 </div>
