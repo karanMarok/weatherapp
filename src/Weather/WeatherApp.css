@@ -1,0 +1,62 @@
+.container {
+    max-width: 35%;
+    background-color: #55A6Bf;
+    color: white;
+    margin-top: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.logoimage {
+    width: 15%;
+    padding: 20px 0 50px 0;
+}
+
+.cityname {
+    font-size: 45px;
+    padding-top: 50px;
+}
+
+.temp {
+    font-size: 50px;
+}
+
+.form-control {
+    margin-right: 10px;
+}
+
+.icon {
+    width: 8vw;
+}
+
+.htemp {
+    margin-right: 30px;
+}
+
+.desc {
+    font-size: 25px;
+}
+
+.wind {
+    margin-bottom: 40px;
+}
+
+/* 
+// const apiKey = '4f6dd4f854c1453d626a1e2aa58739d3';
+    
+// useEffect(() => {
+//     const fetchData = async () => {
+//         try {
+//             const response = await axios.get(apiUrl);
+//             setWeatherData(response.data);
+//         } 
+//         catch (error) {
+//             console.error("Error fetching weather data", error);
+//         }
+//     }
+//     fetchData();
+// }, [])
+
+//const weatherImage = `https://openweathermap.org/img/wn/${weatherData?.weather?.[0]?.icon}@2x.png`;
+//const weatherTemp = Math.round(!!(weatherData?.main.temp) ? (weatherData?.main.temp): null);
+
+// {data?.name}, {data?.main?.temp}, {data?.weather?.icon}, {data?.weather?.description} */
